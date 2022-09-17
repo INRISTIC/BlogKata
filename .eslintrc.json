@@ -5,9 +5,8 @@
     },
     "ignorePatterns": ["node_modules", "dist", "build", "idea"],
     "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb", "plugin:prettier/recommended", "plugin:import/errors", "plugin:import/warnings"],
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-      "project": "tsconfig.json",
+      "project": "@babel/eslint-parser",
       "sourceType": "module"
     },
     "plugins": ["react", "prettier", "import"],
