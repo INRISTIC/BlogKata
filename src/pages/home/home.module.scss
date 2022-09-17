@@ -1,0 +1,17 @@
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 941px;
+    list-style: none;
+  }
+  .paginate {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px!important;
+    margin: 20px!important;
+    li {
+      margin-right: 5px!important;
+    }
+  }

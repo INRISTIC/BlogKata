@@ -1,0 +1,110 @@
+.list {
+    max-width: 941px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    margin: 26px auto 26px auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.btnFull {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: rgba(0, 0, 0, 0.85);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 13px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 0;
+    color: #1890FF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-height: 28px;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.tag {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 1px 6px 1px 6px;
+    margin-right: 8px;
+}
+.tags {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+}
+.btns {
+    padding-top: 30px;
+
+}
+
+.delete {
+    margin-right: 12px;
+    color: #F5222D;
+    border: 1px solid #F5222D;
+    border-radius: 5px;
+    background: inherit;
+    width: 78px;
+    height: 31px;
+}
+
+.edit {
+    margin-right: 12px;
+    color: #52C41A;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    background: inherit;
+    width: 65px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.authFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.imageFull {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfoText {
+    padding: 2px 0;
+}

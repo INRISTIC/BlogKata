@@ -1,0 +1,93 @@
+.list {
+    max-width: 941px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    margin-top: 26px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.btn {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: rgba(0, 0, 0, 0.85);
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 13px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 0;
+    color: #1890FF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-height: 28px;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.tag {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 1px 6px 1px 6px;
+    margin-right: 8px;
+}
+.tags {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.par {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    overflow-y: hidden;
+    max-width: 682px;
+    max-height: 45px;
+    margin: 0;
+}
+
+.auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.authImage {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfoText {
+    padding: 2px 0; 
+}

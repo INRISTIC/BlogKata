@@ -1,0 +1,56 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "ignorePatterns": ["node_modules", "dist", "build", "idea"],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb", "plugin:prettier/recommended", "plugin:import/errors", "plugin:import/warnings"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "tsconfig.json",
+      "sourceType": "module"
+    },
+    "plugins": ["react", "prettier", "import"],
+    "rules": {
+      "indent": ["error", 2, { "SwitchCase": 1 }],
+      "prettier/prettier": "error",
+      "linebreak-style": [0, "unix"],
+      "consistent-return": 0,
+      "import/extensions": "off",
+      "react/jsx-props-no-spreading": "off",
+      "no-useless-escape": "off",
+      "import/named": "off",
+      "import/prefer-default-export": "off",
+      "react/no-children-prop": "off",
+      "no-param-reassign": "off",
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"],
+      "max-len": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "jsx-a11y/control-has-associated-label": "off",
+      "object-curly-newline": "off",
+      "array-callback-return":"off",
+      "comma-dangle": "off",
+      "no-shadow": ["error", { "allow": ["date","duration"] }],
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": 0,
+      "import/no-unresolved": "off",
+      "react/function-component-definition": [2, { "namedComponents": ["function-expression" , "arrow-function", "function-declaration"] }],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "import/order": [
+        2,
+        {
+          "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+          "newlines-between": "always"
+        }
+      ]
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"],
+          "moduleDirectory": ["node_modules", "src/"]
+        }
+      }
+    }
+  }
