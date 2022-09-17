@@ -1,1 +1,1 @@
-https://blog-kappa-ebon.vercel.app/
+https://blog-main-gilt.vercel.app/
